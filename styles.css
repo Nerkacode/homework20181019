@@ -1,0 +1,127 @@
+.font_arial_color {
+    font-family: "Arial";
+}
+
+.font_arial_color p:nth-child(1) {
+    color: red;
+}
+
+.font_arial_color p:nth-child(2) {
+    color: green;
+}
+
+.font_arial_color p:nth-child(3) {
+    color: blue;
+}
+
+.font_comic_bgcolor {
+    font-family: "Comic Sans MS";
+}
+
+.font_comic_bgcolor p:nth-child(1) {
+    background-color: red;
+}
+
+.font_comic_bgcolor p:nth-child(2) {
+    background-color: green;
+}
+
+.font_comic_bgcolor p:nth-child(3) {
+    background-color: blue;
+}
+
+.menu_line {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightcoral;
+}
+
+.menu_line img {   
+    height: 50px;
+    margin: 5px 0 5px 0;    
+}
+
+.menu_line a {   
+    margin: 0 20px 0 0;    
+}
+
+.menu_line a:last-child {
+    margin: 0;
+}
+
+.container {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container article {
+    border: 1px solid gray;
+    width: 40%;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+@media (max-width: 500px) {
+    .container article {
+        width: 100%;
+        margin: 20px 20px 0 20px;
+    }
+}
+
+.nice_page {    
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.nice_page main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    width: 100%;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.nice_page main img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.nice_page footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+    color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.nice_page footer button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;    
+}
+
+.nice_page footer button img {
+    height: 10px;
+    width: 10px;
+    padding-right: 10px;
+}
+
+.nice_page footer button:hover {
+    text-decoration: underline;
+}
